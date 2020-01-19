@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+}
+
+.mydiv {
+  width:100%;
+  height:100%;
+  animation: myanimation 20s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes myanimation {
+  0% {background-image: url(../Assets/hms10.jpg);
+  	opacity:1;
+  }
+  35%{background-image:url(../Assets/hms11.jpg);
+   opacity:1;
+  }
+  75%{background-image:url(../Assets/hms12.jpg);
+opacity:1;
+  }
+  100%{background-image:url(../Assets/hms13.jpg);
+
+  	opacity:1;
+    
+  }
+  }
+  .dropdown-toggle
+  {
+    position:relative;
+    top:340px;
+    left:570px;
+  }
+.me
+{
+    position:relative;
+    top:360px;
+    left:570px;
+  }
+
